@@ -1,0 +1,133 @@
+# C9800 Variables
+variable "c9800-ami" {
+  type    = string
+  default = "ami-01219f5e8df8a426e"
+}
+
+variable "c9800-staticIPv4" {
+  type    = string
+  default = ""
+}
+
+#ISE Variables
+variable "ISE-ami" {
+  type    = string
+  default = "ami-02027215ea0072c8f"
+}
+
+variable "ise_instance_type" {
+  type    = string
+  default = "c5.4xlarge"
+}
+
+variable "ISE-staticIPv4" {
+  type    = string
+  default = ""
+}
+
+#Spaces Variables
+variable "SpacesConnector-ami" {
+  type    = string
+  default = "ami-04d137a82ac6c57e1"
+}
+
+variable "SpacesConnector2-ami" {
+  type    = string
+  default = "ami-0154984ea2606072f"
+  
+}
+
+variable "SpacesConnectorMarch-ami" {
+  type    = string
+  default = "ami-0fe3e2fd51dd21e9f"
+  
+}
+
+variable "spaces_instance_type" {
+  type    = string
+  default = "m5.large"
+
+}
+
+#C8300 Variables
+variable "C8000-ami" {
+  type    = string
+  default = "ami-05a55ebfab1637234"
+}
+
+#General Variables
+variable "network_interface_id" {
+  type    = string
+  default = ""
+}
+
+variable "instance_type" {
+  type    = string
+  default = "c5.xlarge"
+
+}
+
+variable "instance_spaces_type" {
+  type    = string
+  default = "m5.large"
+
+}
+
+variable "C8300_instance_type" {
+  type    = string
+  default = "c5n.large"
+
+}
+
+variable "subnet_id" {
+  default = ""
+}
+
+variable "key_name" {
+  default = ""
+}
+
+variable "vpc_id" {
+  default = ""
+}
+
+variable "cidr_blocks" {
+  default = "1"
+}
+
+#Security Group Variables
+variable "home_ip" {
+  default = "1"
+}
+
+variable "username" {
+  default = "admin"
+}
+
+variable "PrivilegePwd" {
+  default = ""
+}
+
+variable "ConfirmPwd" {
+  default = ""
+}
+
+variable "MPrivateIP" {
+  default = ""
+}
+
+variable "MSecurityGroup" {
+  default = ""
+}
+
+variable "ManagementSubnetId" {
+  default = ""
+}
+
+variable "home_subnet_IP" {
+  default = ""
+}
+
+variable "all_subnets" {
+  default = ""
+}

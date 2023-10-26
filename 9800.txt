@@ -1,0 +1,2 @@
+ios-config-1="hostname MRE_C9800_CL"
+ios-config-2="username cisco priv 15 pass cisco123"
